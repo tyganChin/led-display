@@ -1,0 +1,15 @@
+{
+    "default_time": 15,
+    "screens": 
+        [
+            {
+                "visible": true,
+                "screen": "screens/smile.gif",
+                "time": 10
+            },
+            {
+                "visible": true,
+                "screen": "screens/fortnite.gif"
+            }
+        ]
+}
