@@ -3,7 +3,7 @@
     "screens": 
         [
             {
-                "visible": true,
+                "visible": false,
                 "screen": "screens/smile.gif",
                 "time": 10
             },
