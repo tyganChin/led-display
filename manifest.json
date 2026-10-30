@@ -10,6 +10,11 @@
             {
                 "visible": true,
                 "screen": "screens/fortnite.gif"
+            },
+            {
+                "visible": true,
+                "screen": "screens/cat.gif",
+                "time": 20
             }
         ]
 }
