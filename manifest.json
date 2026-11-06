@@ -9,7 +9,7 @@
             },
             {
                 "visible": true,
-                "screen": "screens/fortnite.gif"
+                "screen": "screens/fortnite.gif",
                 "text": {
                     "text": "VICTORY",
                     "font": 1,
