@@ -12,12 +12,12 @@
                 "screen": "screens/fortnite.gif",
                 "text": {
                     "text": "WINS",
-                    "font": 1,
-                    "size": 2,
-                    "position": 1,
+                    "font": 4,
+                    "size": 1,
+                    "position": 0,
                     "color": "#F800",
-                    "offsetX": 0,
-                    "offsetY": -2,
+                    "offsetX": 5,
+                    "offsetY": -5,
                     "spacing": 1
                 }
             },
