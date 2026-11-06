@@ -11,14 +11,14 @@
                 "visible": true,
                 "screen": "screens/fortnite.gif",
                 "text": {
-                    "text": "VICTORY",
+                    "text": "WINS",
                     "font": 1,
-                    "size": 1,
-                    "position": 6,
+                    "size": 2,
+                    "position": 1,
                     "color": "#F800",
                     "offsetX": 0,
                     "offsetY": -2,
-                    "spacing": 2
+                    "spacing": 1
                 }
             },
             {
