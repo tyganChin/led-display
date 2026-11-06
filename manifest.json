@@ -11,7 +11,16 @@
                 "visible": true,
                 "screen": "screens/fortnite.gif",
                 "text": {
-                    "text": "WINS",
+                    "api": {
+                        "url": "https://fortnite-api.com/v2/stats/br/v2",
+                        "key": "1a24ed1e-91cf-4f05-b3b1-857a70155469",
+                        "params": {
+                            "name": "likej3nnie",
+                            "accountType": "epic",
+                            "timeWindow": "lifetime"
+                        },
+                        "path": "data.stats.all.overall.wins"
+                    },
                     "font": 0,
                     "size": 1,
                     "position": 0,
