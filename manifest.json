@@ -3,6 +3,10 @@
     "screens": 
         [
             {
+                "visible": true,
+                "screen": "screens/sam.png"
+            },
+            {
                 "visible": false,
                 "screen": "screens/smile.gif",
                 "time": 10
