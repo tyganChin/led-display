@@ -1,0 +1,34 @@
+
+name: Update LED Screens
+
+on:
+  # Allow manual execution
+  workflow_dispatch:
+
+  # Run automatically every 6 hours
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run update script
+        run: |
+          echo "Updating LED screens..."
+          # Your Python script goes here
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add screens/
+          git diff --cached --quiet || (
+            git commit -m "Automatically update LED screens"
+            git push
+          )
