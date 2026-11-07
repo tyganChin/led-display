@@ -4,7 +4,7 @@
         [
             {
                 "visible": true,
-                "screen": "screens/sam.png"
+                "screen": "screens/sam.gif"
             },
             {
                 "visible": false,
