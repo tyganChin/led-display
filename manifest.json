@@ -1,6 +1,7 @@
 {
     "default_time": 15,
-    "brightness": 80,
+    "brightness": 50,
+    "shuffle": true,
     "screens": 
         [
             {
@@ -9,7 +10,7 @@
                 "screen": "screens/sam.gif"
             },
             {
-                "visible": false,
+                "visible": true,
                 "screen": "screens/smile.gif",
                 "time": 10
             },
