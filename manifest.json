@@ -4,6 +4,7 @@
         [
             {
                 "visible": true,
+                "static": true,
                 "screen": "screens/sam.gif"
             },
             {
